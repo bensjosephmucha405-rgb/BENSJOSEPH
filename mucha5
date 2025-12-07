@@ -1,0 +1,11 @@
+public class MUCHA5
+{
+   public static void main(String [] args){
+    int [] arrays = {4,8,2,9,3};
+    int target = 9;
+    for (int i = 0; i<arrays.length; i++){
+    if (arrays[i] == target){
+    System.out.println("Found at index" + i);
+                                                                                                                                         }                                                                                                                           }
+    } 
+   }
