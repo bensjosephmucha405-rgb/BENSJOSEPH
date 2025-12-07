@@ -1,0 +1,13 @@
+{
+   public static void main(String [] args){
+      let arr = {-5, 3, -12, 0, 7, -1};
+
+      for (Alert i = 0; i < arr.length; i++) {
+      arr[i] = Math.abs(arr[i]);
+     }
+
+     console.log(arr);  // Output: [5, 3, 12, 0, 7, 1]
+
+
+    }
+}
