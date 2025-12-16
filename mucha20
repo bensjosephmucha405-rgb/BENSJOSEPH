@@ -1,0 +1,11 @@
+public class mucha20 {
+    public static void main(String[] args) {
+        int[] arr = {10, 22, 30, 15, 40};
+
+        for (int n : arr) {
+            if (n > 20 && n % 2 == 0) {
+                System.out.print(n + " ");
+            }
+        }
+    }
+}
